@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rang</title>
+
+<style>
+    body
+    {
+        margin: 0;
+        background: #FFD8D8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .center-box
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1500px;
+        height: 680px;
+        background: #FFD8D8;
+        border-radius: 70px;
+        position: absolute;
+        z-index: 5;
+    }
+    .logo
+    {
+        width: 50%;
+        max-width: 500px;
+    }
+   
+    details
+   {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 10;
+   }
+   summary
+   {
+    list-style: none;
+    cursor: pointer;
+   }
+    
+   .line
+    {
+       width: 38px;
+       height: 4px;
+       background-color: #C70000;
+       border-radius: 20px;
+       margin-bottom: 6px;
+    }
+    .menu-box
+    {
+        background: #C70000;
+        padding: 15px;
+        border-radius: 15px;
+        margin-top: 10px;
+        width: 200px;
+        color: #FFD8D8;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .menu-box a
+    {
+        color: #FFD8D8;
+        text-decoration: none;
+        display: block;
+        margin: 8px 0;
+    }
+</style>
+
+</head>
+<body>
+    <div style="width: 1500px; height: 680px; background: #FFD8D8; border-radius: 70px; position: absolute;"></div>
+        <details>
+            <summary>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </summary>
+            <div class="menu-box">
+                <a href="about me.html">about me</a>
+                <a href="products.html">products</a>
+                <a href="order.html">how to order</a>
+                <a href="contact.html"> contact</a>
+            </div>
+        </details>
+        <div class="center-box">
+        <img src="rang logo.png" class="logo">
+        </div>
+</body>
+</html>

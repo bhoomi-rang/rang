@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crochet flowers</title>
+<style>
+    body 
+        {
+            margin: 0;
+            background: #FFD8D8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container
+        {
+            width: 1500px;
+            height: 680px;
+            background-color: #FFD8D8;
+            border-radius: 70px;
+            padding: 40px 80px;
+            position: relative;
+            overflow-y: auto;
+        }
+        details
+        {
+            position: absolute;
+            top: 65px;
+            left: 30px;
+            z-index: 10;
+        }
+        summary
+        {
+            list-style: none;
+            cursor: pointer;
+        }
+        .line
+        {
+            width: 38px;
+            height: 4px;
+            background-color: #C70000;
+            border-radius: 20px;
+            margin-bottom: 6px;
+            
+        }
+        .menu-box
+        {
+        background: #C70000;
+        padding: 15px;
+        border-radius: 15px;
+        margin-top: 10px;
+        width: 200px;
+        color: #FFD8D8;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .menu-box a
+        {
+        color: #FFD8D8;
+        text-decoration: none;
+        display: block;
+        margin: 8px 0;
+        }
+        .logo
+        {
+            position: absolute;
+            top: 35px;
+            right: 40px;
+            width: 140px;
+        }
+        .title 
+        {
+            font-size: 40px;
+            font-weight: bold;
+            color: #C70000;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .products
+        {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            padding: 0 40px;
+        }
+        .items
+        {
+            width: 320px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .item a
+        {
+            text-decoration: none;
+            color: inherit;
+        }
+        .item-img
+        {
+            width: 280px;
+            height: 280px;
+            background: #FFD8D8;
+            border-radius: 20px;
+            box-shadow: 0px 10px 20px rgba(199, 0, 0, 0.20);
+            object-fit: cover;
+        }
+        .item-text
+        {
+            margin-top: 12px;
+            font-size: 18px;
+            color: #C70000;
+        }
+        .price
+        {
+            margin-top: 5px;
+            font-size: 18px;
+            color: #C70000;
+        }
+        .items :hover .item-text,
+        .items :hover .price
+        {
+            text-decoration: underline;
+        }
+        .items :hover
+        {
+            transform: scale(1.03);
+        }
+        .bottom
+        {
+            width: 100%;
+            background: #C70000;
+            color: #FFD8D8;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+</style>
+
+</head>
+<body>
+    <div class="container">
+
+        <details>
+            <summary>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </summary>
+
+            <div class="menu-box">
+                <a href="about me.html">about me</a>
+                <a href="products.html">products</a>
+                <a href="order.html">how to order</a>
+                <a href="contact.html">contact</a>
+            </div>
+        </details>
+
+        <img src="rang logo.png" class="logo">
+
+        <div class="title">crochet flowers</div>
+
+        <div class="products">
+            
+            <div class="items ">
+                <a href="flower 1 preview.html">
+                    <img src="flower 1.jpg" class="item-img">
+                    <div class="item-text">tulip flower bouquet of 5</div>
+                    <div class="price"> rs 1000</div>
+                </a>
+            </div>
+            
+            <div class="items">
+                <a href="flower 2 preview.html">
+                    <img src="flower 2.jpg" class="item-img">
+                    <div class="item-text">batman tulip flower bouquet</div>
+                    <div class="price"> rs 700</div>
+                </a>
+            </div>
+
+            <div class="items">
+                <a href="flower 3 preview.html">
+                <img src="flower 3.jpg" class="item-img">
+                <div class="item-text">tulip flower bouquet of 3</div>
+                <div class="price"> rs 500</div>
+                </a>
+            </div>
+
+            <div class="items">
+                <a href="flower 4 preview.html">
+                <img src="flower 4.jpg" class="item-img">
+                <div class="item-text">tulip flower pot of 4</div>
+                <div class="price"> rs 1000</div>
+                </a>
+            </div>
+
+            <div class="items">
+                <a href="flower 5 preview.html">
+                <img src="flower 5.jpeg" class="item-img">
+                <div class="item-text">lily flower bouquet of 2</div>
+                <div class="price"> rs 400</div>
+                </a>
+            </div>
+
+            <div class="items">
+                <a href="flower 6 preview.html">
+                <img src="flower 6.jpeg" class="item-img">
+                <div class="item-text">single rose flower pot</div>
+                <div class="price"> rs 300</div>
+                </a>
+            </div>
+
+            <div class="items">
+                <a href="flower 7 preview.html">
+                <img src="flower 7.jpg" class="item-img">
+                <div class="item-text">sunflower bouquet of 5</div>
+                <div class="price"> rs 1200</div>
+                </a>
+            </div>
+
+            <div class="items">
+                <a href="flower 8 preview.html">
+                <img src="flower 8.jpeg" class="item-img">
+                <div class="item-text">lavender flower bouquet of 4</div>
+                <div class="price"> rs 600</div>
+                </a>
+            </div>
+
+            <div class="items">
+                <a href="flower 9 preview.html">
+                <img src="flower 9.jpeg" class="item-img">
+                <div class="item-text">mini flower bouquet</div>
+                <div class="price"> rs 300 each</div>
+                </a>
+            </div>
+        </div>
+        <div class="bottom">
+            i also take any custom flower bouquet orders too
+addition of any one flower costs Rs 200 each 
+<p>many colour options provided, you can choose according to your requirements</p>
+<p>price may vary on the requirements</p>
+        </div>
+    </div>
+</body>
+</html>
